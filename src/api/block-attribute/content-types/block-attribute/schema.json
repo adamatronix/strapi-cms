@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "block_attributes",
+  "info": {
+    "singularName": "block-attribute",
+    "pluralName": "block-attributes",
+    "displayName": "Block Attribute"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
